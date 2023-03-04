@@ -1,5 +1,5 @@
 # Create a file
-f = open("file1.txt", "w")
+f = open("file2.txt", "w")
 f.write("Hello World")
 f.close()
 
@@ -8,6 +8,6 @@ f.close()
 # print(f.read())
 
 # store the file contents in a variable
-f = open("file1.txt", "r")
+f = open("file2.txt", "r")
 file_contents = f.read()
 print(file_contents)
