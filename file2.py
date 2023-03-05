@@ -7,10 +7,19 @@
 
 # edit a file 
 f = open("file2.txt", "a")
-f.write("Now the file has more content!")
-f.close()
+# write on new line
+f.write("\nThis is a new line")
 
 # open and read the file after the appending:
 f = open("file2.txt", "r")
 print(f.read())
+
+# escape characters 
+# \n - new line
+# \t - tab
+# \\ - backslash
+# \' - single quote
+# \" - double quote
+
+
 

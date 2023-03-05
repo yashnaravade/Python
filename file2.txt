@@ -1,1 +1,3 @@
-Hello WorldNow the file has more content!
+Hello WorldNow the file has more content!  This is a new line 
+ This is a new line
+This is a new line
